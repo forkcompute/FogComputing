@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="front_feature_nodelet" args="manager" output="screen" />
+
+  <node pkg="nodelet" type="nodelet" name="front_feature"
+  args="load nodelet_front_feature/FrontFeature front_feature_nodelet" output="screen">
+       <remap from="/front_feature/features" to="/features"/>
+  </node>
+</launch>

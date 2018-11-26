@@ -1,0 +1,7 @@
+<library path="lib/libNodeletFrontFeature">
+    <class name="nodelet_front_feature/FrontFeature" type="nodelet_front_feature::FrontFeature" base_class_type="nodelet::Nodelet">
+        <description>
+            Feature extraction part of omni monocular slam
+        </description>
+    </class>
+</library>

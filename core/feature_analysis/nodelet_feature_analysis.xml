@@ -1,0 +1,7 @@
+<library path="lib/libNodeletFeatureAnalysis">
+    <class name="nodelet_feature_analysis/FeatureAnalysis" type="nodelet_feature_analysis::FeatureAnalysis" base_class_type="nodelet::Nodelet">
+        <description>
+            Feature analysis part of omni monocular slam
+        </description>
+    </class>
+</library>

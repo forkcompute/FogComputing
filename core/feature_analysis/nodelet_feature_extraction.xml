@@ -1,0 +1,7 @@
+<library path="lib/libNodeletFeatureExtraction">
+    <class name="nodelet_feature_extraction/FeatureExtraction" type="nodelet_feature_extraction::FeatureExtraction" base_class_type="nodelet::Nodelet">
+        <description>
+            Feature extraction part of omni monocular slam
+        </description>
+    </class>
+</library>
